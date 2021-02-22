@@ -10,8 +10,8 @@ import org.openqa.selenium.interactions.Actions;
 import java.util.List;
 
 public class SelectableElements {
-    public static void main(String[] args){
 
+    public static void main(String[] args){
         WebDriver driver=new ChromeDriver();
         driver.get("http://www.leafground.com/pages/selectable.html");
 

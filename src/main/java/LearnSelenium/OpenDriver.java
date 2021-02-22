@@ -8,9 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.server.handler.SendKeys;
 
 public class OpenDriver {
+
     public static void main(String[] args){
         //Initialize chromedriver
-
         WebDriver driver=new ChromeDriver();
 
         //navigate to google chrome

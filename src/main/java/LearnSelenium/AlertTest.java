@@ -8,9 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class AlertTest {
+
     @Test
     public static void Test (){
-
         WebDriver driver=new ChromeDriver();
         driver.get("http://www.leafground.com/");
 

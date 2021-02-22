@@ -8,8 +8,8 @@ import org.openqa.selenium.interactions.Actions;
 import java.util.List;
 
 public class SortFunction {
-    public static void main(String[] args) throws InterruptedException{
 
+    public static void main(String[] args) throws InterruptedException{
         WebDriver driver=new ChromeDriver();
         driver.navigate().to("http://www.leafground.com/pages/sortable.html");
 

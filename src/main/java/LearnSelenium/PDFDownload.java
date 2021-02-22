@@ -15,8 +15,8 @@ import java.io.File;
 import static java.lang.Thread.*;
 
 public class PDFDownload {
-    public static void main(String[] args) throws InterruptedException, AWTException {
 
+    public static void main(String[] args) throws InterruptedException, AWTException {
         WebDriver driver=new ChromeDriver();
         driver.get("http://www.leafground.com/pages/download.html");
 

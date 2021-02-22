@@ -9,8 +9,8 @@ import java.awt.*;
 import java.util.List;
 
 public class Frames {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.leafground.com/");
 

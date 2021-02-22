@@ -11,8 +11,8 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
 public class UploadFile18 {
-    public static void main(String[] args) throws AWTException, InterruptedException {
 
+    public static void main(String[] args) throws AWTException, InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.leafground.com/pages/upload.html");
 

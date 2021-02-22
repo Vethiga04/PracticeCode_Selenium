@@ -6,8 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class CalenderFunction {
-    public static void main(String[] args) throws InterruptedException {
 
+    public static void main(String[] args) throws InterruptedException {
         WebDriver driver=new ChromeDriver();
         driver.navigate().to("http://www.leafground.com/pages/Calendar.html");
 

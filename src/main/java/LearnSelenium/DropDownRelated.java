@@ -10,8 +10,8 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 
 public class DropDownRelated {
-    public static void main(String[] args) throws InterruptedException {
 
+    public static void main(String[] args) throws InterruptedException {
         WebDriver driver=new ChromeDriver();
         driver.get("http://www.leafground.com/");
 

@@ -9,8 +9,8 @@ import org.openqa.selenium.interactions.Actions;
 import java.util.List;
 
 public class LinkRelatedRemain20 {
-    public static void main(String[] args){
 
+    public static void main(String[] args){
         WebDriver driver=new ChromeDriver();
         driver.navigate().to("http://www.leafground.com/pages/Link.html");
 

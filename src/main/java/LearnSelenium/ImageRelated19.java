@@ -6,8 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ImageRelated19 {
-    public static void main(String[] args){
 
+    public static void main(String[] args){
         WebDriver driver=new ChromeDriver();
         String Defaultwindow=("http://www.leafground.com/pages/Image.html");
         driver.get(Defaultwindow);
