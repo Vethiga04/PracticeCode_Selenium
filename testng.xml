@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="2" preserve-order="true">
+    <listeners>
+        <listener class-name="LearnTestNG.ListenersExample"></listener>
+    </listeners>
+    <test name="TestName">
+        <classes>
+            <class name="LearnTestNG.SampleTestCase"></class>
+        </classes>
+    </test>
+</suite>
+       <!-- <groups>
+            <run>
+                <exclude name="Grouping"></exclude>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="DocDev.Get_CustomerInfo">
+&lt;!&ndash;                <methods>&ndash;&gt;
+&lt;!&ndash;                    <include name="NavigationDevDoc"/>&ndash;&gt;
+&lt;!&ndash;                    <include name="SignUp"/>&ndash;&gt;
+&lt;!&ndash;                    <include name="UserSearch"/>&ndash;&gt;
+&lt;!&ndash;                </methods>&ndash;&gt;
+            </class>
+            <class name="DocDev.AssignDoctor_TopupChat">
+&lt;!&ndash;                <methods>&ndash;&gt;
+&lt;!&ndash;                    <include name="SignIntoDashboard"/>&ndash;&gt;
+&lt;!&ndash;                    <include name="NavigateToAdvisory"/>&ndash;&gt;
+&lt;!&ndash;                    <include name="DetailViewTopupChat"/>&ndash;&gt;
+&lt;!&ndash;                    <include name="AssigningDoctor"/>&ndash;&gt;
+&lt;!&ndash;                    <include name="AssigningDocor"/>&ndash;&gt;
+&lt;!&ndash;                </methods>&ndash;&gt;
+            </class>
+        </classes>
+    </test>
+<!    </suite>-->
