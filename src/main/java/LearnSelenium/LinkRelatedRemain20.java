@@ -10,7 +10,7 @@ import java.util.List;
 
 public class LinkRelatedRemain20 {
     public static void main(String[] args){
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\TheShy\\Documents\\QA-MyDoctor\\Automaion\\Selenium\\chromedriver.exe");
+
         WebDriver driver=new ChromeDriver();
         driver.navigate().to("http://www.leafground.com/pages/Link.html");
 

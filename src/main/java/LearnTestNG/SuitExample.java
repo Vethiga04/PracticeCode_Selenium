@@ -47,7 +47,6 @@ public class SuitExample {
         ExtentSparkReporter extentSparkReporter=new ExtentSparkReporter("emailable-report.html");
         extentReports.attachReporter(extentSparkReporter);*/
         StartTime2= System.currentTimeMillis();
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\TheShy\\Documents\\QA-MyDoctor\\Automaion\\Selenium\\chromedriver.exe");
         driver=new ChromeDriver();
     }
 

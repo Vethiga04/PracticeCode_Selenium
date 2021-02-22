@@ -12,7 +12,7 @@ import java.awt.event.KeyEvent;
 
 public class UploadFile18 {
     public static void main(String[] args) throws AWTException, InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\TheShy\\Documents\\QA-MyDoctor\\Automaion\\Selenium\\chromedriver.exe");
+
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.leafground.com/pages/upload.html");
 

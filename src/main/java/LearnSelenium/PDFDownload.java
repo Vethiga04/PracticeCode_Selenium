@@ -16,7 +16,7 @@ import static java.lang.Thread.*;
 
 public class PDFDownload {
     public static void main(String[] args) throws InterruptedException, AWTException {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\TheShy\\Documents\\QA-MyDoctor\\Automaion\\Selenium\\chromedriver.exe");
+
         WebDriver driver=new ChromeDriver();
         driver.get("http://www.leafground.com/pages/download.html");
 

@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class AlertTest {
     @Test
     public static void Test (){
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\TheShy\\Documents\\QA-MyDoctor\\Automaion\\Selenium\\chromedriver.exe");
+
         WebDriver driver=new ChromeDriver();
         driver.get("http://www.leafground.com/");
 
